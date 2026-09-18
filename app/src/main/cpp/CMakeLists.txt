@@ -38,7 +38,7 @@ target_include_directories(bitchord_analysis PRIVATE
 
 # -ffast-math is deliberately NOT enabled: the analyzer's log/mel-adjacent
 # arithmetic (see audio_analysis.cpp) is tuned against exact IEEE behaviour.
-target_compile_options(bitchord_analysis PRIVATE -O3 -fvisibility=hidden)
+target_compile_options(bitchord_analysis PRIVATE -O3 -fvisibility=hidden -fexceptions -frtti)
 
 find_library(log-lib log)
-target_link_libraries(bitchord_analysis ${log-lib})
+target_link_libraries(bitchord_analysis ${log-lib} -lc++_shared)
