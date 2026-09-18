@@ -1,104 +1,278 @@
 <div align="center">
 
+<img src="Logo.png" alt="RYVON BEATZ" width="140"/>
+
+# R Y V O N  B E A T Z
+
+### Your music. Your mood. Your world.
+
+A beautifully crafted, community-driven YouTube Music client
+designed for an immersive and personalized listening experience.
+
+<br/>
+
+<p>
+  <img src="https://img.shields.io/badge/Platform-Android-111111?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-GPLv3-111111?style=flat-square" />
+  <img src="https://img.shields.io/badge/Status-In%20Development-111111?style=flat-square" />
+</p>
+
+<br/>
+
+<img src="Banner.png" alt="RYVON BEATZ — Music Experience" width="100%"/>
+
 <br/>
 <br/>
 
-<img src="Logo.png" alt="RYVON BEATZ app icon" width="200" />
+[Features](#features) ·
+[Highlights](#highlights) ·
+[Contributing](#contributing) ·
+[License](#license)
 
-# RYVON BEATZ
+</div>
 
-### Aesthetic YouTube Music Client
+---
+
+## About RYVON BEATZ
+
+**RYVON BEATZ** is an independent, community-driven audio player
+and third-party YouTube Music client focused on delivering a
+beautiful, customizable, and immersive music experience.
+
+From dynamic album artwork and synchronized lyrics to advanced
+playback controls and personalized listening preferences, RYVON
+BEATZ is designed around one simple idea:
+
+> **Music should feel as good as it sounds.**
+
+Whether you're discovering new artists, revisiting your favorite
+albums, or building your personal music library, RYVON BEATZ
+brings everything together in one refined listening experience.
+
+---
+
+## Features
+
+### Playback
+
+Everything you need for a better listening experience.
+
+- **Search & Discover** — Explore and play music available through
+  supported YouTube Music integrations.
+- **High-Quality Audio** — Support for FLAC/ALAC through configured
+  module sources, with YouTube Music as a fallback.
+- **Gapless Playback** — Enjoy uninterrupted transitions between tracks.
+- **True Crossfade** — Adjustable crossfade duration from 0 to 12 seconds.
+- **Automix [Beta]** — DJ-style transitions with beat matching
+  and tempo stretching.
+- **Offline Downloads** — Save supported tracks with embedded metadata.
+- **Local Music Library** — Access music stored on your device.
+- **Background Playback** — Continue listening with a foreground
+  media session.
 
 <br/>
 
-[**Features**](#features) · [**Contributing**](#contributing) · [**Disclaimer**](#disclaimer)
+### Immersive Experience
 
-</div>
+Designed to make every listening session feel personal.
 
-> [!IMPORTANT]
-> RYVON BEATZ is not affiliated with, endorsed by, or connected to YouTube or Google in any way. Use it at your own discretion.
+- **Animated Album Canvas** — Bring album artwork to life.
+- **Word-Synchronized Lyrics** — Follow lyrics with
+  word- and syllable-level highlighting.
+- **Dynamic Theming** — Generate Material color palettes from album artwork.
+- **Frosted-Glass Interface** — Translucent UI elements powered by
+  Haze and Material 3.
+- **Animated Lyrics Experience** — Inspired by modern music-player
+  interfaces.
 
----
+<br/>
 
-<div align="center">
+### Connectivity & Accounts
 
-<img src="Banner.png" alt="RYVON BEATZ banner" width="100%" />
+Connect your listening experience across your favorite platforms.
 
-<h1><a id="features"></a>Features</h1>
+- **Google Account Integration** — Access personalized content
+  through supported authentication flows.
+- **Discord Rich Presence** — Share your currently playing track,
+  artist, album, and playback progress.
+- **Last.fm Scrobbling** — Track your listening history.
+- **ListenBrainz Integration** — Scrobble your listening activity.
+- **Pluggable Sources** — Add, edit, test, and health-check
+  configurable module sources.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
+<br/>
 
-#### Playback
-- **Search, browse and play** anything available on YouTube Music.
-- **Hi-Res lossless audio** — FLAC/ALAC from a configured module source, with YouTube Music as fallback.
-- **Gapless playback with true crossfade**, adjustable 0–12s.
-- **Automix [Beta]** — DJ-style transitions with beat-matching and tempo-stretching.
-- **Offline downloads** — save tracks with embedded metadata.
-- **Local music library** integration.
-- **Background playback** via a proper foreground media session.
-- **Apple-like lyrics animation** — credit to [binimum](https://github.com/binimum/am-lyrics).
+### Advanced Controls
 
-#### Experience
-- **Animated album canvas** — motion artwork on the now-playing screen.
-- **Word-synced lyrics** — word/syllable-level highlighting from multiple sources.
-- **Dynamic, artwork-driven theming** — Material palette extracted from album art.
-- **Frosted-glass UI** — Telegram-style translucent bars via Haze, Material 3 theming.
+Fine-tune your listening experience.
 
-    </td>
-    <td width="50%" valign="top">
-
-#### Connectivity & Accounts
-- **Sign in with your Google account** for personalized content.
-- **Discord Rich Presence** — in-app login, live track/artist/album and progress.
-- **Scrobbling** to Last.fm and ListenBrainz.
-- **Pluggable sources** — add, edit, test and health-check module sources.
-
-#### Controls & Tweaks
-- **Per-network audio quality** — separate quality ceilings for Wi-Fi and mobile data.
-- **Playback speed control** (0.5×–2.0×) and **skip silence**.
-- **Sleep timer** — fixed presets or "stop after this track".
-- **System equalizer** integration.
-- **Stats for nerds** — codec, bit depth, sample rate, and more on the now-playing screen.
-
-    </td>
-  </tr>
-</table>
-
-</div>
+- **Network-Based Audio Quality** — Configure separate quality
+  limits for Wi-Fi and mobile data.
+- **Playback Speed** — Adjust playback speed from 0.5× to 2.0×.
+- **Skip Silence** — Automatically skip silent portions of audio.
+- **Sleep Timer** — Stop playback after a fixed duration or
+  when the current track ends.
+- **System Equalizer** — Integrate with supported system audio effects.
+- **Audio Information** — View codec, bit depth, sample rate,
+  and other playback details.
 
 ---
 
+## Highlights
+
 <div align="center">
 
-<h1><a id="contributing"></a>Contributing</h1>
-
-We welcome contributions to RYVON BEATZ!
+| Feature | Description |
+|:---:|:---|
+| 🎵 | Advanced audio playback |
+| 🎨 | Dynamic artwork-based themes |
+| 🎧 | Immersive listening experience |
+| ✨ | Frosted-glass Material 3 interface |
+| 📡 | Pluggable audio sources |
+| 🎼 | Synchronized lyrics |
+| 📊 | Detailed playback statistics |
+| 🔗 | Scrobbling and Discord integration |
 
 </div>
 
 ---
 
-<div align="center">
+## Design Philosophy
 
-<h1><a id="disclaimer"></a>Disclaimer & Legal Notice</h1>
+RYVON BEATZ is built around three principles.
 
-RYVON BEATZ is an independent, community-driven third-party audio player and client. It is **not** associated with Google LLC, YouTube Music, Deezer, Telegram, or any of their parent companies.
+### Simplicity
 
-* **No Media Hosting:** RYVON BEATZ does not host, upload, or store copyrighted music files. It operates strictly as an interface to scan local device storage or stream media directly from public, public-facing, or user-authenticated APIs.
-* **Fair Use & API Usage:** This software is created solely for personal research, educational, and fair-use purposes. The user is entirely responsible for ensuring their usage aligns with their local copyright laws and YouTube Terms of Service.
-* **No Ad-Blocking Guarantee:** While RYVON BEATZ focuses on providing a clean listening environment, it does not guarantee permanent bypasses or modifications to commercial third-party platform conditions.
-* **Copyleft:** RYVON BEATZ is free software under the GPLv3. The license does not let anyone forbid others from selling or redistributing copies, but any distribution must come with the Corresponding Source under the same license.
+A clean interface that keeps your attention on the music.
 
-</div>
+### Personalization
+
+Your artwork, your themes, your playlists, and your preferences.
+
+### Immersion
+
+A listening experience that goes beyond simply pressing play.
+
+---
+
+## Project Status
+
+RYVON BEATZ is an actively developed independent project.
+
+Some features may be experimental, require additional configuration,
+or depend on external services and module sources.
+
+> **Note:** Feature availability may vary depending on the platform,
+> source configuration, and development status.
+
+---
+
+## Contributing
+
+Contributions, ideas, bug reports, and improvements are welcome.
+
+If you'd like to contribute:
+
+1. Fork the repository.
+2. Create a new branch.
+
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+
+3. Make your changes.
+4. Commit your work.
+
+   ```bash
+   git commit -m "feat: add your feature"
+   ```
+
+5. Push your branch.
+
+   ```bash
+   git push origin feature/your-feature
+   ```
+
+6. Open a pull request.
+
+Please ensure your contributions are relevant, well-documented,
+and consistent with the project's goals.
+
+---
+
+## Disclaimer & Legal Notice
+
+RYVON BEATZ is an independent, community-driven third-party
+audio player and client.
+
+**RYVON BEATZ is not affiliated with, endorsed by, or connected
+to Google LLC, YouTube, YouTube Music, Deezer, Telegram, or any
+of their parent companies.**
+
+### No Media Hosting
+
+RYVON BEATZ does not host, upload, or distribute copyrighted
+music files.
+
+The application operates as an interface for supported sources,
+local device storage, and applicable public or user-authenticated APIs.
+
+### Responsible Usage
+
+This project is intended for personal research, educational,
+and lawful use.
+
+Users are responsible for ensuring that their usage complies
+with applicable copyright laws, third-party terms of service,
+and the laws of their jurisdiction.
+
+### Third-Party Services
+
+RYVON BEATZ may interact with third-party services and APIs.
+
+The availability, functionality, and terms of those services
+are outside the project's control.
+
+The project does not guarantee uninterrupted access to any
+third-party platform or service.
+
+### No Guarantee of Ad-Blocking
+
+RYVON BEATZ does not guarantee the permanent removal or
+circumvention of advertisements, platform restrictions,
+or changes to third-party services.
+
+### Copyright & Licensing
+
+RYVON BEATZ is free software released under the GNU General
+Public License version 3.0.
+
+Redistribution and modification are permitted in accordance
+with the terms of the license.
+
+---
+
+## License
+
+RYVON BEATZ is licensed under the
+**[GNU General Public License v3.0](LICENSE)**.
 
 ---
 
 <div align="center">
 
-<h1><a id="license"></a>License</h1>
+<img src="Logo.png" alt="RYVON BEATZ" width="70"/>
 
-This project is licensed under the **GNU General Public License v3.0 (GPLv3)**. See the [LICENSE](LICENSE) file for details.
+### RYVON BEATZ
+
+**Music lives here.**
+
+<br/>
+
+Made with passion by the community.
+
+<br/>
+
+<sub>© RYVON BEATZ · Open Source Music Experience</sub>
 
 </div>
