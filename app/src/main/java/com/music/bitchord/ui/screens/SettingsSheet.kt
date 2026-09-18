@@ -1265,7 +1265,7 @@ fun SettingsScreen(
                     ),
                 )
                 append("  ")
-                withLink(LinkAnnotation.Url("https://github.com", linkStyles)) {
+                withLink(LinkAnnotation.Url("https://github.com/harikarthick12/RYVON-BEATZ", linkStyles)) {
                     append("GitHub")
                 }
                 append("\n~YouTube Music Backend")
