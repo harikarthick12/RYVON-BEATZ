@@ -59,6 +59,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import coil3.compose.AsyncImage
 import kotlinx.coroutines.launch
@@ -237,23 +238,18 @@ fun FrostedTopBar(
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
                     Image(
-                        painter = painterResource(R.drawable.ic_logo),
-                        contentDescription = null,
-                        colorFilter = ColorFilter.tint(MaterialTheme.colorScheme.onSurface),
-                        modifier = Modifier.height(18.dp),
+                        painter = painterResource(R.drawable.ic_ryvon_logo),
+                        contentDescription = "RYVON",
+                        modifier = Modifier.size(24.dp),
                     )
-                    // The dev flavor gets its own applicationId so it can sit
-                    // installed next to the prod build; this badge is the
-                    // in-app equivalent, so the two are never mixed up at a
-                    // glance once both are running.
-                    if (BuildConfig.FLAVOR == "dev") {
-                        Text(
-                            text = "Dev",
-                            style = MaterialTheme.typography.labelSmall,
-                            color = MaterialTheme.colorScheme.primary,
-                            modifier = Modifier.padding(start = 6.dp),
-                        )
-                    }
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Text(
+                        text = "RYVON",
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.onSurface,
+                        letterSpacing = 1.sp,
+                    )
                 }
             }
             Row(
