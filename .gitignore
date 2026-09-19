@@ -38,6 +38,9 @@ keystore.properties
 .shots/
 .tmp_verify/
 .debug/
+release_assets/
+*.apk
 
 # AI agent configuration
 AGENTS.md
+
